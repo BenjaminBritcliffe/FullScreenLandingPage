@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+header{
+  background-image:url("main.jpg");
+  height:100vh;
+  background-size:cover;
+  color:#fff;
+  font-family:Arial;
+}
+.header-content{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  text-align:center;
+}
+
+div.container{
+    border-radius: 25px;
+    border: 2px solid #3366ff;
+    background:white;
+    background-position: left top;
+    background-repeat: repeat;
+    width: 450px;
+    height: 50px;
+  max-width:960px;
+  margin:0 auto;
+  background-color:white;
+  color:black;
+  overflow:hidden;
+}
+h1{
+  font-size:100px;
+  margin:0;
+  color:#0f0f3d;
+}
+h3{
+  font-size:40px;
+  margin-top:0;
+  margin-bottom:25px;
+  color:#290066;
+}
